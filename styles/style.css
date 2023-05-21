@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -63,7 +63,7 @@
 }
 
 .header__image {
-  z-index: 1;
+  z-index: -1;
   max-width: 636px;
   position: absolute;
   right: 20px;
@@ -441,6 +441,7 @@
 
 .footer__column-heading {
   margin-bottom: 20px;
+  margin-top: auto;
 }
 
 .footer__column-link {
